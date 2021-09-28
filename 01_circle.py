@@ -14,7 +14,6 @@ square_4 = (round(square, 4))
 square_4 = str(square_4)
 print('Square of a circle = ' + square_4)
 
-
 # Далее, пусть есть координаты точки
 point = (23, 34)
 # где 23 - координата х, 34 - координата у
@@ -52,5 +51,3 @@ print("Point_2 in a circle = " + point_2_in_a_circle)
 # 77777.7777
 # False
 # False
-
-

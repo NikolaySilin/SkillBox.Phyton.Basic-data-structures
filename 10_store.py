@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 # Есть словарь кодов товаров
@@ -49,17 +48,54 @@ print('Лампа -', lamps_quantity, 'шт, стоимость', lamps_cost, '�
 # WARNING для знающих циклы: БЕЗ циклов. Да, с переменными; да, неэффективно; да, копипаста.
 # Это задание на ручное вычисление - что бы потом понять как работают циклы и насколько с ними проще жить.
 
-# TODO здесь ваш код
+table_code = goods['Стол']
+tables_item = store[table_code][0]
+tables_quantity = tables_item['quantity']
+tables_price = tables_item['price']
+tables_cost = tables_quantity * tables_price
+print('\nСтол 1й вариант -', tables_quantity, 'шт, стоимость', tables_cost, 'руб')
 
-##########################################################################################
-# ВНИМАНИЕ! После того как __ВСЯ__ домашняя работа сделана и запушена на сервер,         #
-# нужно зайти в ЛМС (LMS - Learning Management System ) по адресу http://go.skillbox.ru  #
-# и оформить попытку сдачи ДЗ! Без этого ДЗ не будет проверяться!                        #
-# Как оформить попытку сдачи смотрите видео - https://youtu.be/qVpN0L-C3LU               #
-##########################################################################################
+table_code = goods['Стол']
+tables_item = store[table_code][1]
+tables_quantity = tables_item['quantity']
+tables_price = tables_item['price']
+tables_cost = tables_quantity * tables_price
+print('Стол 2й вариант -', tables_quantity, 'шт, стоимость', tables_cost, 'руб')
 
+sofa_code = goods['Диван']
+sofas_item = store[sofa_code][0]
+sofas_quantity = sofas_item['quantity']
+sofas_price = sofas_item['price']
+sofas_cost = sofas_quantity * sofas_price
+print('\nДиван 1й вариант -', sofas_quantity, 'шт, стоимость', sofas_cost, 'руб')
 
+sofa_code = goods['Диван']
+sofas_item = store[sofa_code][1]
+sofas_quantity = sofas_item['quantity']
+sofas_price = sofas_item['price']
+sofas_cost = sofas_quantity * sofas_price
+print('Диван 2й вариант -', sofas_quantity, 'шт, стоимость', sofas_cost, 'руб')
 
+chair_code = goods['Стул']
+chairs_item = store[chair_code][0]
+chairs_quantity = chairs_item['quantity']
+chairs_price = chairs_item['price']
+chairs_cost = chairs_quantity * chairs_price
+print('\nСтул 1й вариант -', chairs_quantity, 'шт, стоимость', chairs_cost, 'руб')
+
+chair_code = goods['Стул']
+chairs_item = store[chair_code][1]
+chairs_quantity = chairs_item['quantity']
+chairs_price = chairs_item['price']
+chairs_cost = chairs_quantity * chairs_price
+print('Стул 2й вариант -', chairs_quantity, 'шт, стоимость', chairs_cost, 'руб')
+
+chair_code = goods['Стул']
+chairs_item = store[chair_code][2]
+chairs_quantity = chairs_item['quantity']
+chairs_price = chairs_item['price']
+chairs_cost = chairs_quantity * chairs_price
+print('Стул 3й вариант -', chairs_quantity, 'шт, стоимость', chairs_cost, 'руб')
 
 
 
